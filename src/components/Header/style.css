@@ -1,0 +1,87 @@
+.header {
+  width: 100%;
+  height: 70px;
+  background-color:rgb(67, 80, 88);
+}
+
+.header .container {
+  padding: 0 2%;
+  color: white;
+  width: 100%;
+  height: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-mobile{
+  display: none;
+}
+.header .container .desktop {
+  height: 100%;
+}
+.header .container .desktop ul{
+  width: 300px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .container .desktop ul a{
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  transition: .4s;
+  position: relative;
+}
+
+.header .container .desktop ul a:hover{
+  color: rgb(45, 194, 214);
+  font-size: 1.3rem;
+  top: 5px;
+  font-weight: 700;
+}
+
+
+@media screen and (max-width: 7685px) {
+  .btn-mobile{
+    display: block;
+    width: 30px;
+    cursor: pointer;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(132, 140, 142);
+    transition: .4s;
+  }
+  .mobile ul{
+    padding: 20px 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .mobile ul a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    transition: .4s;
+  }
+  .mobile ul a:hover {
+    font-size: 1.58rem;
+    font-weight: 700;
+    color: rgb(220, 247, 99);
+}
+
+}
