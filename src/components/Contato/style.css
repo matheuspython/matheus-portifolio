@@ -1,0 +1,60 @@
+.contato{
+  width: 100%;
+  padding: 20px 0;
+}
+.contato h4{
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.contato .container{
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contato form{
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contato form input{
+  width: 98%;   
+  border: 0;
+  border-radius: 12px;
+  margin: 5px;
+  height: 35px;
+  padding-left: 15px;
+  outline: 0;
+}
+.contato form textarea {
+  resize: none;
+  width: 98%;
+  height: 200px;
+  border: 0;
+  outline: 0;
+  border-radius: 12px;
+  padding: 8px;
+}
+.enviar{
+  cursor: pointer;
+  background-color: rgb(49, 102, 216);
+  color: white;
+  text-transform: uppercase;
+  transition: .4s;
+}
+
+.enviar:hover {
+  background-color: rgb(35, 72, 151);
+
+}

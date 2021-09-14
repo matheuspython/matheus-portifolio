@@ -1,0 +1,44 @@
+.projeto {
+  margin: 5px;
+  height: 350px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid white;
+  padding: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+.projeto img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  transition: .4s;
+  object-fit: cover;
+
+}
+.projeto img:hover{
+  width: 100%;
+  border-radius: 12px;
+}
+.projeto p{
+  width: 100%;
+}
+.projeto a{
+  line-height: 35px;
+  height: 35px;
+  width: 180px;
+  display: inline-block;
+  color: white;
+  border-radius: 25px;
+  background-color: rgb(32, 67, 182);
+  transition: .4s;
+}
+
+.projeto a:hover{
+  background-color: rgb(71, 103, 207);
+}
