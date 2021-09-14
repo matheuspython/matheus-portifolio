@@ -83,5 +83,8 @@
     font-weight: 700;
     color: rgb(220, 247, 99);
 }
+.header .container h1 {
+  font-size: 20px;
+}
 
 }
