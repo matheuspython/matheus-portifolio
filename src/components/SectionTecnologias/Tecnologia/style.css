@@ -1,0 +1,24 @@
+.tecnologia {
+  width: 100%;
+  max-width: 300px;
+  margin: 5px;
+  border: 1px solid white;
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+  transition: .4s;
+}
+
+.tecnologia img {
+  width: 100px;
+}
+.tecnologia h1{
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.tecnologia:hover {
+  padding: 35px;
+  transform: rotate(360deg);
+  font-size: 19px;
+}
