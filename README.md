@@ -8,7 +8,7 @@ portifolio pessoal criado com react js feito com o objetivo de treinar minhas ha
   - [ ] baixar o node [link](https://nodejs.org/en/) 
   - [ ] entrar clonar o repositorio para sua maquina
   - [ ] navegar ate a pasta clonada via terminal
-  - [ ] executar o comendo `yarn start`
+  - [ ] executar o comendo `yarn start` e logo apos as dependencias serem instaladas exeute o comando `yarn`
   - [ ] abrir no seu browser o [http://localhost:3000](http://localhost:3000)
 
 
